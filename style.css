@@ -45,7 +45,7 @@ body {
     /* margin: 0 25px; */
 /* } */ */
 
-.main-div1 img {
+.main-div .main-div1 img {
     height: 300px;
     width: 730px;
 }
