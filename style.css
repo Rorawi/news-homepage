@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    display: grid;
+    grid-template-rows: 1fr 5fr  3fr;
+} */
+
+body {
+    background-color: #F2F1EF;
+    margin: 60px 90px;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    place-content: center;
+}
+.nav-brand {
+    margin: 5px 0;
+}
+
+.nav-items a{
+    margin: 5px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-items a:hover {
+    color: orange;
+    transition: 0.3s;
+}
+
+.main-div {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    margin: 20px 0;
+    grid-column-gap: 20px;
+}
+
+/* .main-div1 {
+    /* margin: 0 25px; */
+/* } */ */
+
+.main-div1 img {
+    height: 300px;
+    width: 730px;
+}
+
+.main-div1-section {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    margin-top: 30px;
+    /* margin: 50px 30px 50px 0; */
+}
+
+.main-div1-section .bold-text {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.main-div1-section .other-text {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.main-div1-section .other-text button {
+    padding: 10px 25px;
+    background-color: #F15D51;
+    margin: 30px 0;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.main-div1-section .other-text button:hover {
+    background-color: #050531;
+    transition: 0.3s;
+} 
+
+.main-div2 {
+    background-color: #00001A;
+    color: #F2F1EF;
+    padding: 10px 30px;
+    display: grid;
+    /* grid-template-rows: repeat(4,5); */
+
+    /* display: grid;
+    grid-template-columns: 6fr 4fr;
+    place-content: center; */
+}
+
+.main-div2 div {
+ border-bottom: 1px solid rgba(240, 255, 255, 0.598);
+ margin: 10px 0 0;
+}
+
+.main-div2 div:nth-child(4) {
+    border: 0;
+}
+
+.main-div2 .topic h1{
+    color: #F3A436;
+    font-size: 30px;
+    font-family: sans-serif;
+    border: 0;
+    margin: 10px 0 -20px 0;
+
+}
+
+.main-div2 h1 {
+    font-size: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.main-div2 h1:hover {
+    color: #F3A436;
+    transition: 0.3s
+} 
+
+.main-div2 span {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.539);
+    font-weight: 500;
+}
+
+.last-div {
+    margin: 100px 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: 25px; */
+}
+
+.last-div-child {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 20px;
+}
+
+.last-div-child img {
+    width: 100px;
+    height: 127px;
+}
+
+.last-text .number {
+    color: rgba(128, 128, 128, 0.5);
+    font-weight: 600;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.last-text h4 {
+    font-weight: 800;
+}
+
+/* .last-div-img {
+    width: 100px;
+    height: 127px;
+} */
+.attribution { 
+    font-size: 11px;
+     text-align: center;
+     box-shadow: 3px 3px 7px rgb(226, 218, 218);
+     /* width: 300px; */
+     padding: 20px;
+     margin: 80px 20px;
+     font-size: 15px;
+ }
+    
+.attribution a {
+     color: hsl(228, 45%, 44%);
+ }
