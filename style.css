@@ -1,3 +1,31 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+
+    font-family: ExtraBoldInter;
+    
+    src: url(./assets/fonts/static/Inter-ExtraBold.ttf);
+    }
+@font-face {
+    font-family: BoldInter;
+    
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+    
+}
+@font-face {
+    font-family: RegularInter;
+    
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+    
+}
+@font-face {
+    font-family: VariableInter;
+    
+    src: url(./assets/fonts/static/Inter-VariableFont_slnt\,wght.ttf);
+    
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +55,8 @@ body {
     margin: 5px 10px;
     color: black;
     text-decoration: none;
+    font-size: 15px;
+    font-family: RegularInter;
 }
 
 .nav-items a:hover {
@@ -59,12 +89,13 @@ body {
 
 .main-div1-section .bold-text {
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 1000;
+    font-family: ExtraBoldInter;
 }
 
 .main-div1-section .other-text {
-    font-size: 19px;
-    font-weight: 300;
+    font-size: 15px;
+    font-family: RegularInter;
 }
 
 .main-div1-section .other-text button {
@@ -72,6 +103,7 @@ body {
     background-color: #F15D51;
     margin: 30px 0;
     font-size: 15px;
+    font-family: RegularInter;
     color: white;
     border: 0;
     cursor: pointer;
@@ -87,11 +119,6 @@ body {
     color: #F2F1EF;
     padding: 10px 30px;
     display: grid;
-    /* grid-template-rows: repeat(4,5); */
-
-    /* display: grid;
-    grid-template-columns: 6fr 4fr;
-    place-content: center; */
 }
 
 .main-div2 div {
@@ -106,7 +133,7 @@ body {
 .main-div2 .topic h1{
     color: #F3A436;
     font-size: 30px;
-    font-family: sans-serif;
+    font-family: BoldInter;
     border: 0;
     margin: 10px 0 -20px 0;
 
@@ -115,6 +142,7 @@ body {
 .main-div2 h1 {
     font-size: 20px;
     margin: 10px 0;
+    font-family: BoldInter;
     cursor: pointer;
 }
 
@@ -126,7 +154,7 @@ body {
 .main-div2 span {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.539);
-    font-weight: 500;
+    font-family: RegularInter;
 }
 
 .last-div {
@@ -149,13 +177,17 @@ body {
 
 .last-text .number {
     color: rgba(128, 128, 128, 0.5);
-    font-weight: 600;
-    font-size: 25px;
-    font-family: cursive;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: VariableInter;
 }
 
 .last-text h4 {
-    font-weight: 800;
+    font-family: BoldInter;
+}
+
+.last-text p {
+    font-family: RegularInter;
 }
 
 /* .last-div-img {
@@ -169,7 +201,6 @@ body {
      /* width: 300px; */
      padding: 20px;
      margin: 80px 20px;
-     font-size: 15px;
  }
     
 .attribution a {
